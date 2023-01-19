@@ -11,12 +11,42 @@
         var res = x * y;
         alert(res);
       }
+
+      function division() {
+        var x = prompt("x = ");
+        var y = prompt("y = ");
+        var res = x / y;
+        alert(res);
+      }
+
+      function subtr() {
+        var x = prompt("x = ");
+        var y = prompt("y = ");
+        var res = x - y;
+        alert(res);
+      }
+
+      function sum() {
+        var x = prompt("x = ");
+        var y = prompt("y = ");
+        var res = (x*1) + (y*1);
+        alert(res);
+      }
       
     </script>
 </head>
 <body>
-  <p style="color:red;">Это моя первая страница</p>
-  <input type="button" value="жми меня" onclick="mult()" style="color: rgb(60, 60, 159); font-size: 20px; " >  
+  <p style="color:red;">Кнопка функции произведения</p>
+  <input type="button" value="Произведение" onclick="mult()" style="color: rgb(3, 3, 253); font-size: 20px; " > 
+
+  <p style="color:red;">Кнопка функции деления</p>
+  <input type="button" value="Деление" onclick="division()" style="color: rgb(3, 3, 253); font-size: 20px; " >
+
+  <p style="color:red;">Кнопка функции вычитания</p>
+  <input type="button" value="Вычитание" onclick="subtr()" style="color: rgb(3, 3, 253); font-size: 20px; " >
+
+  <p style="color:red;">Кнопка функции сложения</p>
+  <input type="button" value="Сложение" onclick="sum()" style="color: rgb(3, 3, 253); font-size: 20px; " >
 
 </body>
 </html> 
